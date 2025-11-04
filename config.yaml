@@ -13,11 +13,19 @@ system:
 
 # Binance API
 binance:
-  api_key: ""  # Buraya API key
-  api_secret: ""  # Buraya API secret
-  testnet: true  # true = testnet, false = mainnet
-  base_url: "https://testnet.binancefuture.com"  # Testnet URL
-  # Mainnet: "https://fapi.binance.com"
+  api_key: ""  # Buraya API key (demo.binance.com'dan aldığın)
+  api_secret: ""  # Buraya API secret (demo.binance.com'dan aldığın)
+  testnet: true  # true = demo/testnet, false = gerçek hesap
+  
+  # API Base URLs
+  # demo.binance.com ve testnet.binancefuture.com aynı sisteme yönleniyor
+  base_url: "https://testnet.binancefuture.com"  # Demo trading API
+  
+  # WebSocket URLs
+  ws_url: "wss://stream.binancefuture.com"  # Demo WebSocket
+  
+  # NOT: demo.binance.com → testnet.binancefuture.com'a yönleniyor
+  # İkisi de aynı test sistemi, testnet: true kullan
 
 # Veritabanı Ayarları
 postgres:
