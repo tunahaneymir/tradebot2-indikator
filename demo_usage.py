@@ -8,11 +8,20 @@ nasıl kullanılacağını gösterir.
 Çalıştırma:
     python demo_usage.py
 
+.env Kullanımı:
+    1. .env.example'ı kopyala: cp .env.example .env
+    2. API key'leri ekle
+    3. Script otomatik yükler
+
 Author: Trading Bot Team
 """
 
 from pathlib import Path
 import time
+from dotenv import load_dotenv
+
+# .env dosyasını yükle (varsa)
+load_dotenv()
 
 # Modülleri import et
 from config_manager import ConfigManager, ConfigurationError
@@ -49,6 +58,16 @@ def demo_config_usage():
     print(f"  - Log Level: {config.get('system.log_level')}")
     print(f"  - Testnet: {config.get('binance.testnet')}")
     print(f"  - Max Position: {config.get('risk.max_position_size')}")
+    
+    # .env'den gelen değerleri göster
+    api_key = config.get('binance.api_key')
+    if api_key and api_key != "":
+        print(f"\n🔑 .env'den Yüklenen:")
+        print(f"  - API Key: {api_key[:8]}... (gizlendi)")
+        print("  ✅ .env dosyası başarıyla yüklendi!")
+    else:
+        print(f"\n⚠️  .env dosyası bulunamadı veya boş")
+        print("  Öneri: .env.example'ı .env olarak kopyala ve doldur")
     
     # 4. Default değer ile okuma
     missing_value = config.get('nonexistent.key', 'default_value')
