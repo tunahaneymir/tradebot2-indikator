@@ -1,0 +1,75 @@
+# ==========================================
+# TRADING BOT - FAZ 2 REQUIREMENTS
+# ==========================================
+# Database Layer bağımlılıkları
+# Python: 3.10+
+
+# Core Dependencies (Faz 1'den)
+pyyaml==6.0.1
+python-dotenv==1.0.0
+
+# PostgreSQL
+psycopg2-binary==2.9.9
+
+# Redis
+redis==5.0.1
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+
+# ==========================================
+# FAZ 3 - BINANCE API & COIN SELECTION
+# ==========================================
+
+# Binance API
+python-binance==1.0.19
+
+# HTTP & WebSocket
+requests==2.31.0
+websockets==12.0
+aiohttp==3.9.1
+
+# Data Analysis (Coin Selection)
+pandas==2.1.4
+numpy==1.26.2
+
+# Technical Analysis (ileride kullanılacak)
+# ta==0.11.0
+# TA-Lib (manuel kurulum gerekir)
+
+# ==========================================
+# OPSIYONEL - PRODUCTION
+# ==========================================
+
+# Async support (ileride)
+# asyncio
+# aioredis==2.0.1
+# asyncpg==0.29.0
+
+# Connection pooling (alternatif)
+# SQLAlchemy==2.0.23
+# psycopg2-pool
+
+# Monitoring
+# prometheus-client==0.19.0
+
+# ==========================================
+# DOCKER KURULUM
+# ==========================================
+# 
+# PostgreSQL:
+# docker run -d --name trading-postgres \
+#   -p 5432:5432 \
+#   -e POSTGRES_DB=trading_bot \
+#   -e POSTGRES_USER=trading_user \
+#   -e POSTGRES_PASSWORD=password \
+#   postgres:15
+#
+# Redis:
+# docker run -d --name trading-redis \
+#   -p 6379:6379 \
+#   redis:7
+#
+# ==========================================

@@ -1,0 +1,37 @@
+2025-11-06 10:19:54 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:19:54 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:19:54 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:19:54 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:19:54 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:19:54 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:19:54 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:19:54 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:19:54 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:19:54 [ERROR] binance - API hatası: Invalid symbol
+2025-11-06 10:19:54 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:19:54 [ERROR] binance - Request hatası: Timeout
+2025-11-06 10:19:54 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:19:54 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:19:54 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:19:54 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:28:31 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:28:33 [ERROR] binance - API hatası: API-key format invalid.
+2025-11-06 10:28:33 [ERROR] binance - Bağlantı hatası: Binance API hatası: API-key format invalid.
+2025-11-06 10:30:09 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 10:30:11 [ERROR] binance - API hatası: API-key format invalid.
+2025-11-06 10:30:11 [ERROR] binance - Bağlantı hatası: Binance API hatası: API-key format invalid.
+2025-11-06 11:32:11 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 11:32:12 [ERROR] binance - API hatası: API-key format invalid.
+2025-11-06 11:32:12 [ERROR] binance - Bağlantı hatası: Binance API hatası: API-key format invalid.
+2025-11-06 15:47:21 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 15:47:23 [ERROR] binance - API hatası: API-key format invalid.
+2025-11-06 15:47:23 [ERROR] binance - Bağlantı hatası: Binance API hatası: API-key format invalid.
+2025-11-06 15:48:29 [INFO] binance - BinanceManager başlatıldı
+2025-11-06 15:48:30 [ERROR] binance - API hatası: API-key format invalid.
+2025-11-06 15:48:30 [ERROR] binance - Bağlantı hatası: Binance API hatası: API-key format invalid.
+2025-11-06 15:56:22 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-06 16:02:38 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-06 16:02:40 [INFO] binance - Binance API bağlantısı başarılı
+2025-11-06 16:02:40 [INFO] binance - BinanceManager kapatıldı
+2025-11-06 16:04:03 [INFO] binance - BinanceManager başlatıldı (python-binance wrapper)
+2025-11-06 16:04:04 [INFO] binance - Binance API bağlantısı başarılı
